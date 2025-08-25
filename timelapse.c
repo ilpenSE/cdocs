@@ -16,7 +16,7 @@ int timelapse_int(int (*func)(const char*), const char* str) {
   end = clock();
 
   time_taken = ((double)(end - start)) / CLOCKS_PER_SEC;
-  printf("Süre: %f ms\n", time_taken*1000);
+  printf("Time: %f ms\n", time_taken*1000);
   return res;
 }
 
@@ -33,7 +33,7 @@ double timelapse_double(double (*func)(double x, double y), double x, double y) 
   end = clock();
 
   time_taken = ((double)(end - start)) / CLOCKS_PER_SEC;
-  printf("Süre: %f ms\n", time_taken*1000);
+  printf("Time: %f ms\n", time_taken*1000);
   return res;
 }
 
@@ -50,6 +50,6 @@ long long timelapse_powers(long long (*func)(long long base, long long exp), lon
   end = clock();
 
   time_taken = ((double)(end - start)) / CLOCKS_PER_SEC;
-  printf("Süre: %f ms\n", time_taken*1000);
+  printf("Time: %f ms\n", time_taken*1000);
   return res;
 }

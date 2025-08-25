@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include "powers.h"
 
-// iterasyon kadar hızlı olmasa da recursive olarak çalışan üs alma fonksiyonu
 long long fast_pow(long long base, long long exp) {
   if (exp == 0) return 1;
   if (exp % 2 == 0) {
@@ -13,7 +12,6 @@ long long fast_pow(long long base, long long exp) {
   }
 }
 
-// her durumda en hızlısı budur (base ve/veya exp floating point değilse ama binpow ile çok fark yok)
 long long fast_pow_iter(long long base, long long exp) {
   long long result = 1;
   while (exp > 0) {
@@ -26,7 +24,6 @@ long long fast_pow_iter(long long base, long long exp) {
   return result;
 }
 
-// a ve b'nin floating point olması durumunda daha hızlı çalışır.
 long long binpow(long long a, long long b) {
     long long res = 1;
     while (b > 0) {
