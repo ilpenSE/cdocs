@@ -1,0 +1,14 @@
+{
+  "keystr": "somestr",
+  "keyint": 123,
+  "keyfloat": 12.34,
+  "keybool": true,
+  "keyarray": [
+    1,
+    2,
+    3
+  ],
+  "keyobject": {
+    "nestedKey": "nestedValue"
+  }
+}
