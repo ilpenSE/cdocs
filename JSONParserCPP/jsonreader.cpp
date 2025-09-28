@@ -54,23 +54,6 @@ string JsonReader::normalize_json(const string& input) {
 
 JsonValue JsonReader::readJson(const string& filePath) {
   m_json = JsonValue{}; // Reset previous JSON value
-  string content = readall(filePath);
-  // NORMALIZING (PREPROCESSING)
-  string normalized = normalize_json(content);
-
-  // LEXING
-  Lexer lexer(normalized);
-  vector<Token> tokens = lexer.tokenize();
-
-  // PARSING
-  Parser parser(tokens);
-  JsonValue json = parser.parse();
-
-  m_json = json;
-  return json;
-}
-
-JsonValue JsonReader::readJson(const string& filePath) {
   tokenPool.clear();
   tokenPool.reserve(1024); // Tahmin edilen token sayısı
 
@@ -85,7 +68,10 @@ JsonValue JsonReader::readJson(const string& filePath) {
 
   // PARSER PHASE
   Parser parser(tokenPool);
-  return parser.parse();
+  auto json = parser.parse();
+
+  m_json = json;
+  return json;
 }
 
 string JsonReader::readall(const string& filePath) {

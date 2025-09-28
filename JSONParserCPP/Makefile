@@ -1,7 +1,7 @@
 CC = g++
 CFLAGS = -Wall -Wextra -O2 -g
 
-CPPS = main.cpp jsonreader.cpp lexer.cpp parser.cpp
+CPPS = main.cpp jsonreader.cpp lexer.cpp parser.cpp simdjson.cpp
 TARGET = program.exe
 
 # Varsayılan hedef
