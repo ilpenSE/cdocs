@@ -12,7 +12,7 @@
     int main() {
       std::string logs_dir = "logs/"; // -> IT HAS TO BE DIRECTORY
       
-      Logger::instance().initialize(logs_dir); // -> initializes with logs, REQUIRED
+      Logger::instance().initialize(logs_dir, true); // -> initializes with logs and isLocalTime, REQUIRED
                                                // you can check its return value:
                                                // bool isLoggerInitialized = Logger::instance().initialize(logs_dir);
                                                // if (!isLoggerInitialized) {
