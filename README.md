@@ -7,3 +7,6 @@ This is my C/C++ files. I can develop these files and you can see what i'm doing
 
 ## 03/09/2025
 [Binary Operators](binops.c) and [segmentation faults](segfaults.c) added
+
+## 15/12/2025
+[Servers](Servers/server.c) added (HTTP, simple one)
