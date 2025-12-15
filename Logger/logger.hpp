@@ -4,10 +4,10 @@
 /*
   PURE C++ LOGGER MEYERS SINGLETON
 
-  It has pre-defined macros without any paranthesis
+  Macros.hpp has pre-defined macros without any paranthesis
 
   Usage:
-    #include "loggerstream.hpp" // -> FOR MACROS
+    #include "macros.hpp" // -> FOR MACROS
     #include "logger.hpp" // -> FOR INIT
     int main() {
       std::string logs_dir = "logs/"; // -> IT HAS TO BE DIRECTORY
