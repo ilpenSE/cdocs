@@ -1,5 +1,5 @@
 
---- RAW BYTES DUMP (kısmî örnek: ilk 200 byte) ---
+--- RAW BYTES DUMP STARTS ---
 000000: 66 'f'
 000001: 69 'i'
 000002: 6c 'l'
@@ -10720,7 +10720,7 @@
 010717: 00 '.'
 010718: 00 '.'
 010719: 00 '.'
- ------ DUMP ENDS  ------
+------ RAW BYTES DUMP ENDS  ------
 Dosya: file1.txt
 Içerik: Hello world
 Dosya: file2.txt
@@ -10755,7 +10755,7 @@ FILE NOT FOUND: file1.txt
 Dosya: file2.txt
 Içerik: Another file
 
---- RAW BYTES DUMP (kısmî örnek: ilk 200 byte) ---
+--- RAW BYTES DUMP STARTS ---
 000000: 66 'f'
 000001: 69 'i'
 000002: 6c 'l'
@@ -21476,4 +21476,4 @@ Içerik: Another file
 010717: 00 '.'
 010718: 00 '.'
 010719: 00 '.'
- ------ DUMP ENDS  ------
+------ DUMP ENDS  ------

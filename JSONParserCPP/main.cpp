@@ -1,25 +1,7 @@
 #include <iostream>
-#include "jsonreader.h"
 using namespace std;
 #include <variant>
 #include <string>
-#include "simdjson.h"
-
-void simdjson_example(const string& filePath) {
-  simdjson::dom::parser parser;
-  simdjson::dom::element doc = parser.load(filePath);
-  string s = doc["keystr"].get_string().value().data();
-  cout << doc["keystr"].get_string().value().data() << endl;
-  cout << doc["keyint"].get_int64().value().data() << endl;
-  cout << doc["keyfloat"].get_double().value().data() << endl;
-  cout << doc["keybool"].get_bool().value().data() << endl;
-
-  cout << doc["keyarray"].get_string().value().data() << endl;
-
-  cout << doc["keystr"].get_string().value().data() << endl;
-  cout << doc["keystr"].get_string().value().data() << endl;
-  cout << doc["keystr"].get_string().value().data() << endl;
-}
 
 void jreaderexample(const string& filePath) {
   JsonReader* reader = new JsonReader();
@@ -50,14 +32,6 @@ int main(int argc, char** argv) {
   cout << "Enter the file: " << endl;
   string filePath;
   cin >> filePath;
-
-  // SIMDJSON
-  cout << "SIMDJSON OUTPUT:" << endl;
-  clock_t start = clock();
-  for (int i = 0; i < 100000; i++) {
-    simdjson_example(filePath);
-  }
-  cout << "Time taken: " << (double)(clock() - start) / CLOCKS_PER_SEC << " seconds" << endl;
 
   // JSONREADER
   cout << "JSONREADER OUTPUT:" << endl;

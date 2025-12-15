@@ -9,4 +9,4 @@ This is my C/C++ files. I can develop these files and you can see what i'm doing
 [Binary Operators](binops.c) and [segmentation faults](segfaults.c) added
 
 ## 15/12/2025
-[Servers](Servers/server.c) added (HTTP, simple one)
+[Servers](Servers/server.c) added (HTTP, simple one) and [Race Conditions](raceconditions.cpp) ve [Logger](Logger/main.cpp) added
