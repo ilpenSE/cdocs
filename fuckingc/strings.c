@@ -21,5 +21,12 @@ int main(int argc, char** argv) {
   smemcpy(dest, str, 4);
   printf("Destination string: %s\n", dest);
   printf("Destination string length: %d\n", strlen(dest));
+
+  char res[32];
+
+  *res++ = 'b';
+  *res++ = 'a';
+  
+  printf("%s", res);
   return 0;
 }

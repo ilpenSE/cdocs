@@ -13,3 +13,6 @@ This is my C/C++ files. I can develop these files and you can see what i'm doing
 
 ## 17/12/2025
 [ilpeN JSON Submodule](https://github.com/ilpenSE/ilpenjson) added
+
+## 07/01/2026
+[Restructure of fucking C files](fuckingc/)
