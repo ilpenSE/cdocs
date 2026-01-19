@@ -16,3 +16,6 @@ This is my C/C++ files. I can develop these files and you can see what i'm doing
 
 ## 07/01/2026
 [Restructure of fucking C files](fuckingc/)
+
+## 19/01/2026
+[Added Dynamic Arrays](dynarrays.c)
