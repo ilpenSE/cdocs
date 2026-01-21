@@ -4,3 +4,7 @@
 [submodule "Logger"]
 	path = Logger
 	url = git@github.com:ilpenSE/loggercpp.git
+[submodule "LoggerDepr"]
+	path = LoggerDepr
+	url = git@github.com:ilpenSE/logger
+	branch = deprecated
