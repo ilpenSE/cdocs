@@ -8,3 +8,6 @@
 	path = LoggerDepr
 	url = git@github.com:ilpenSE/logger
 	branch = deprecated
+[submodule "strings"]
+	path = strings
+	url = git@github.com:ilpenSE/str.h.git
