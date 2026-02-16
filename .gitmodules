@@ -13,4 +13,4 @@
 	url = git@github.com:ilpenSE/str.h.git
 [submodule "eithers"]
 	path = eithers
-	url = git@gitub.com:ilpenSE/either.h.git
+	url = git@github.com:ilpenSE/either.h.git
