@@ -12,5 +12,8 @@
 	path = strings
 	url = git@github.com:ilpenSE/str.h.git
 [submodule "eithers"]
-	path = eithers
+	path = either.h
+	url = git@github.com:ilpenSE/either.h.git
+[submodule "either.h"]
+	path = either.h
 	url = git@github.com:ilpenSE/either.h.git
