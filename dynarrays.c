@@ -2,21 +2,21 @@
 #include <stdlib.h>
 
 typedef struct {
-	int *items;
-	size_t count;
-	size_t capacity;
+  int *items;
+  size_t count;
+  size_t capacity;
 } Numbers;
 
 typedef struct {
-	float *items;
-	size_t count;
-	size_t capacity;
+  float *items;
+  size_t count;
+  size_t capacity;
 } Prices;
 
 typedef struct {
-	char* *items;
-	size_t count;
-	size_t capacity;
+  char* *items;
+  size_t count;
+  size_t capacity;
 } Names;
 
 // assumes xs as NON-NULL pointer (you have to check)
@@ -33,20 +33,20 @@ typedef struct {
   } while (0)
 
 int main() {
-	Numbers nums = {0};
-	for (int i = 0; i < 10; ++i) da_append(&nums, i);
-	for (size_t i = 0; i < nums.count; ++i) printf("%d\n", nums.items[i]);
+  Numbers nums = {0};
+  for (int i = 0; i < 10; ++i) da_append(&nums, i);
+  for (size_t i = 0; i < nums.count; ++i) printf("%d\n", nums.items[i]);
 
-	Prices prices = {0};
-	for (float i = 0.0f; i < 50.0f; i += 1.0f) da_append(&prices, i);
-	for (size_t i = 0; i < prices.count; ++i) printf("%f\n", prices.items[i]);
+  Prices prices = {0};
+  for (float i = 0.0f; i < 50.0f; i += 1.0f) da_append(&prices, i);
+  for (size_t i = 0; i < prices.count; ++i) printf("%f\n", prices.items[i]);
 
   Names names = {0};
   da_append(&names, "Hello!");        
-	da_append(&names, "World");
-	da_append(&names, "Freunde!");
+  da_append(&names, "World");
+  da_append(&names, "Freunde!");
   da_append(&names, "ilpeN");
 
-	for (size_t i = 0; i < names.count; ++i) printf("%s\n", names.items[i]);
-	return 0;
+  for (size_t i = 0; i < names.count; ++i) printf("%s\n", names.items[i]);
+  return 0;
 }
