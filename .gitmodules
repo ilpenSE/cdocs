@@ -17,3 +17,6 @@
 [submodule "either.h"]
 	path = either.h
 	url = git@github.com:ilpenSE/either.h.git
+[submodule "jsonutils"]
+	path = jsonutils
+	url = git@github.com:ilpenSE/jsonutils.git
