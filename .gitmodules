@@ -20,3 +20,6 @@
 [submodule "jsonutils"]
 	path = jsonutils
 	url = git@github.com:ilpenSE/jsonutils.git
+[submodule "vectors"]
+	path = vectors
+	url = git@github.com:ilpenSE/vector.h.git
