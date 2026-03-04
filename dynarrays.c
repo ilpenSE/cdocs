@@ -42,7 +42,7 @@ int main() {
   for (size_t i = 0; i < prices.count; ++i) printf("%f\n", prices.items[i]);
 
   Names names = {0};
-  da_append(&names, "Hello!");        
+  da_append(&names, "Hello!");
   da_append(&names, "World");
   da_append(&names, "Freunde!");
   da_append(&names, "ilpeN");
