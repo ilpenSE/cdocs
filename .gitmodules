@@ -3,10 +3,10 @@
 	url = git@github.com:ilpenSE/ilpenjson.git
 [submodule "Logger"]
 	path = Logger
-	url = git@github.com:ilpenSE/loggercpp.git
+	url = git@github.com:ilpenSE/logger.git
 [submodule "LoggerDepr"]
 	path = LoggerDepr
-	url = git@github.com:ilpenSE/logger
+	url = git@github.com:ilpenSE/logger.git
 	branch = deprecated
 [submodule "strings"]
 	path = strings
@@ -23,6 +23,3 @@
 [submodule "vectors"]
 	path = vectors
 	url = git@github.com:ilpenSE/vector.h.git
-[submodule "LoggerStable"]
-	path = LoggerStable
-	url = git@github.com:ilpenSE/logger.git
