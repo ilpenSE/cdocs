@@ -1,25 +1,9 @@
-[submodule "ilpenjson"]
-	path = ilpenjson
-	url = git@github.com:ilpenSE/ilpenjson.git
-[submodule "Logger"]
-	path = Logger
-	url = git@github.com:ilpenSE/logger.git
-[submodule "LoggerDepr"]
-	path = LoggerDepr
-	url = git@github.com:ilpenSE/logger.git
-	branch = deprecated
 [submodule "strings"]
 	path = strings
 	url = git@github.com:ilpenSE/str.h.git
-[submodule "eithers"]
-	path = either.h
-	url = git@github.com:ilpenSE/either.h.git
 [submodule "either.h"]
 	path = either.h
 	url = git@github.com:ilpenSE/either.h.git
-[submodule "jsonutils"]
-	path = jsonutils
-	url = git@github.com:ilpenSE/jsonutils.git
 [submodule "vectors"]
 	path = vectors
 	url = git@github.com:ilpenSE/vector.h.git
