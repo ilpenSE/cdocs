@@ -1,6 +1,6 @@
 [submodule "strings"]
 	path = strings
-	url = git@github.com:ilpenSE/str.h.git
+	url = git@github.com:ilpenSE/strings.git
 [submodule "either.h"]
 	path = either.h
 	url = git@github.com:ilpenSE/either.h.git
